@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Dataset (large .npy files; each member keeps a local copy, not submitted)
+Assignment2Data*/
+Assignment2Data
+*.npy
+*.npz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Keras / TensorFlow artefacts (model checkpoints, tuner trials, logs)
+*.keras
+*.h5
+*.weights.h5
+keras_tuner/
+tuner_*/
+logs/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
