@@ -6,7 +6,7 @@ Classifying 28×28 colour histology patches into 9 tissue types with three model
 |---|---|---|
 | SVM (RBF kernel on PCA features) | Member A | Done (test accuracy 0.688, macro F1 0.679) |
 | Fully connected neural network (MLP) | Member B | Done (test accuracy 0.489, macro F1 0.437) |
-| Convolutional neural network (CNN) | Member C | In progress |
+| Convolutional neural network (CNN) | Member C | Done (test accuracy 0.793, macro F1 0.782) |
 
 Everything lives in one notebook, `notebook.ipynb`, which is the submitted file.
 
