@@ -1,0 +1,45 @@
+{
+  "search_grid": {
+    "filters": [
+      16,
+      32
+    ],
+    "learning_rate": [
+      0.0003,
+      0.001,
+      0.003
+    ],
+    "dropout": [
+      0.2,
+      0.4
+    ]
+  },
+  "trials_completed": 12,
+  "max_epochs": 20,
+  "patience": 4,
+  "checkpoint_metric": "val_loss",
+  "selection_metric": "validation accuracy; macro F1 breaks ties",
+  "seed": 42,
+  "train_samples": 25600,
+  "validation_samples": 6400,
+  "batch_size": 256,
+  "search_time_s": 892.540005457995,
+  "total_fit_time_s": 873.3661246239935,
+  "best_trial": 3,
+  "best_params": {
+    "filters": 16,
+    "kernel_size": 3,
+    "dense_units": 64,
+    "dropout": 0.2,
+    "learning_rate": 0.003
+  },
+  "best_epoch": 18,
+  "best_epochs_run": 20,
+  "best_val_accuracy": 0.7915625,
+  "best_val_f1_macro": 0.7833958446288466,
+  "best_fit_time_s": 40.69741512500332,
+  "tensorflow": "2.21.0",
+  "devices": [
+    "CPU"
+  ]
+}
