@@ -23,8 +23,8 @@
   "train_samples": 25600,
   "validation_samples": 6400,
   "batch_size": 256,
-  "search_time_s": 892.540005457995,
-  "total_fit_time_s": 873.3661246239935,
+  "search_time_s": 761.672754375264,
+  "total_fit_time_s": 745.9409644161351,
   "best_trial": 3,
   "best_params": {
     "filters": 16,
@@ -37,7 +37,7 @@
   "best_epochs_run": 20,
   "best_val_accuracy": 0.7915625,
   "best_val_f1_macro": 0.7833958446288466,
-  "best_fit_time_s": 40.69741512500332,
+  "best_fit_time_s": 38.26311795786023,
   "tensorflow": "2.21.0",
   "devices": [
     "CPU"

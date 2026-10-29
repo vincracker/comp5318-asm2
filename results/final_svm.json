@@ -1,1 +1,1 @@
-{"model":"SVM (PCA + RBF)","accuracy":0.688375,"macro precision":0.6845680061,"macro recall":0.6791334118,"macro F1":0.6792264837,"train time (s)":9.3768403749,"predict time (s)":7.4441772918,"best n_components":25,"best C":3,"best gamma":0.001}
+{"model":"SVM (PCA + RBF)","accuracy":0.688375,"macro precision":0.6845680061,"macro recall":0.6791334118,"macro F1":0.6792264837,"train time (s)":10.0395807498,"predict time (s)":7.6739347503,"best n_components":25,"best C":3,"best gamma":0.001}
